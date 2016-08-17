@@ -28,9 +28,7 @@ array = string.split
 array.each do |word|
 
   if word != "and" && word != "the" && word != "over"
-    puts word
     word.capitalize!
-    puts word
   else
     word.downcase
   end
